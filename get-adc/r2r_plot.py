@@ -59,7 +59,7 @@ def plot_data(time_vals, volt_vals, sampling_periods, max_v):
 
 if __name__ == "__main__":
     V_REF = 3.3      
-    DURATION = 5.0   
+    DURATION = 10.0   
     
     adc = R2R_ADC(dynamic_range=V_REF, compare_time=0.0001)
     

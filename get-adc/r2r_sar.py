@@ -40,7 +40,7 @@ class R2R_ADC:
 
 if __name__ == "__main__":
     V_REF = 3.3
-    DURATION = 3.0
+    DURATION = 6.0
     
     adc = R2R_ADC(dynamic_range=V_REF)
     voltage_values = []
